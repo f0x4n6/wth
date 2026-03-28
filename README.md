@@ -1,13 +1,8 @@
 # What the Hash!?
-
-[![Go Reference](https://pkg.go.dev/badge/github.com/f0x4n6/wth.svg)](https://pkg.go.dev/github.com/f0x4n6/wth)
-[![Go Report Card](https://goreportcard.com/badge/github.com/f0x4n6/wth?style=flat-square)](https://goreportcard.com/report/github.com/f0x4n6/wth)
-[![Release](https://img.shields.io/github/release/f0x4n6/wth.svg?style=flat-square)](https://github.com/f0x4n6/wth/releases/latest)
-
 **What the Hash!?** is a simple hash reverse lookup. It searches a database of [270+](https://github.com/s0md3v/Bolt/blob/master/db/hashes.json) hash algorithms for the possible source of the given hash sum and outputs all found matches in [hashcat](https://hashcat.net/hashcat/) notation.
 
 ```console
-go install github.com/f0x4n6/wth@latest
+go install go.foxforensics.dev/wth@latest
 ```
 
 ## Usage

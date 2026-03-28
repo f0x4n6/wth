@@ -1,3 +1,3 @@
-module github.com/f0x4n6/wth
+module go.foxforensics.dev/wth
 
 go 1.26

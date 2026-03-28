@@ -18,7 +18,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/f0x4n6/wth/pkg/wth"
+	"go.foxforensics.dev/wth/pkg/wth"
 )
 
 func main() {
