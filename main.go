@@ -1,15 +1,12 @@
-// What The Hash!? is a simple hash reverse lookup.
-//
-// It searches a database of 270+ hash algorithms for the possible source of the given hash sum
-// and outputs all found matches in hashcat notation to STDOUT.
+// Reverse hash lookup.
 //
 // Usage:
 //
-//	wth hashsum
+//	rhash hashsum
 //
 // The arguments are:
 //
-//	hashsum
+//	sum
 //	    Hash sum to find all possible sources for (required).
 package main
 
@@ -18,12 +15,12 @@ import (
 	"os"
 	"strings"
 
-	"go.foxforensics.dev/wth/database"
+	"go.foxforensics.dev/rhash/database"
 )
 
 func main() {
 	if len(os.Args) == 1 || os.Args[1] == "--help" {
-		_, _ = fmt.Fprintln(os.Stderr, "usage: wth hashsum")
+		_, _ = fmt.Fprintln(os.Stderr, "usage: rhash sum")
 		os.Exit(2)
 	}
 

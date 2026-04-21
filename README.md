@@ -1,13 +1,13 @@
-# What the Hash!?
-A simple hash reverse lookup. It searches a database of [270+](https://github.com/s0md3v/Bolt/blob/master/db/hashes.json) hash algorithms for the possible source of the given hash sum and outputs all found matches in [hashcat](https://hashcat.net/hashcat/) notation.
+# RHash
+Reverse hash lookup that searches a database of 270+ hash algorithms for the possible source of the given hash sum. All found matches will be output in [hashcat](https://hashcat.net/hashcat/) notation.
 
 ```console
-go install go.foxforensics.dev/wth@latest
+go install go.foxforensics.dev/rhash@latest
 ```
 
 ## Usage
 ```console
-$ wth HASHSUM
+$ rhash HASHSUM
 ```
 
 ## Acknowledgments
